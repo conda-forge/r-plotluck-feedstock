@@ -5,11 +5,9 @@ Home: https://github.com/stefan-schroedl/plotluck
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plotluck-feedstock/blob/master/LICENSE.txt)
 
 Summary: Examines the characteristics of a data frame and a formula to automatically choose the most suitable type of plot out of the following supported options: scatter, violin, box, bar, density, hexagon bin, spine plot, and heat map. The aim of the package is to let the user focus on what to plot, rather than on the "how" during exploratory data analysis. It also automates handling of observation weights, logarithmic axis scaling, reordering of factor levels, and overlaying smoothing curves and median lines. Plots are drawn using 'ggplot2'.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-plotluck` from the `conda-forge` channel can be achieved by adding
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-plotluck` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
