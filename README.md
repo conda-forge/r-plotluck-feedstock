@@ -1,11 +1,11 @@
-About r-plotluck
-================
+About r-plotluck-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plotluck-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/stefan-schroedl/plotluck
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plotluck-feedstock/blob/main/LICENSE.txt)
 
 Summary: Examines the characteristics of a data frame and a formula to automatically choose the most suitable type of plot out of the following supported options: scatter, violin, box, bar, density, hexagon bin, spine plot, and heat map. The aim of the package is to let the user focus on what to plot, rather than on the "how" during exploratory data analysis. It also automates handling of observation weights, logarithmic axis scaling, reordering of factor levels, and overlaying smoothing curves and median lines. Plots are drawn using 'ggplot2'.
 
